@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('SCM') {
             steps {
-                git branch: 'main', url: 'https://github.com/C1-80282/exam.git'
+                git branch: 'master', url: 'https://github.com/C1-80282/exam.git'
             }
         }
         stage ('docker login') {
