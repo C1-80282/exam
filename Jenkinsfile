@@ -19,7 +19,7 @@ pipeline {
         }
         stage ('docker push image') {
             steps {
-                sh '/usr/bin/docker image push heenasshinganjude/mywebsite'
+                sh '/usr/bin/docker image push heenashinganjude/mywebsite'
             }
         }
         stage ('docker remove service') {
